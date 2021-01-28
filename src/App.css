@@ -1,0 +1,91 @@
+/* for SearchBar, Button and Header part */
+.navP {
+    height: 5rem;
+}
+
+#srch{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size:small;
+}
+
+.inpt{
+    width:28%;
+    padding-bottom: .4rem;
+    margin-top: 1rem;
+    border: 2px solid;
+    border-color: #c5c3c3;
+    outline: none;
+    
+}
+
+.srchbtn{
+    position: relative;  
+    display:block;
+    border-color:#c5c3c3;
+    background: white;
+    padding: 1px 15px 4px 15px;
+}
+
+
+/* for VideoPlayer */
+#iframe{
+    display: inline-block;
+    height: 500px;
+    margin-top: auto;
+}
+
+.margin{ 
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 100%;
+}
+
+/* for video Description & Title */
+.dep{
+    margin-top: 10px;
+    
+}
+
+/* for Heart Like Button */
+#like{
+    width: fit-content;
+    float: right; 
+}
+
+/* fir videos list */
+.vdlist{
+    margin-top: .5em;
+    
+}
+
+/* for Error page */
+.errorpg {
+    text-align: center;
+    padding: 27% 0 0 50%;
+    font-size: xx-large;
+    font-weight: 800;
+    
+
+}
+
+
+
+/* @media only screen and 
+(min-device-width: 768px)
+and (min-device-width: 1024)
+and (orientation: landscape){
+
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (min-device-width: 1024)
+and (orientation: portrait){
+    
+} */
+
