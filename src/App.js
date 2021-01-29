@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Comments from "./components/Comments";
 import SearchBar from "./components/SearchBar";
 import youtube from "./apis/youtubeapi";
 import VideoList from "./components/VideoList";
@@ -41,8 +42,10 @@ class App extends React.Component {
         <div className='row col-md-12'>
           <div className='col-md-8'>
             <VideoDetails video={this.state.selectedVideo} />
-          </div>
 
+            <Comments/>
+          </div>
+        
           <div className="col-md-4" >
             <VideoList
               videos={this.state.videos}
@@ -50,6 +53,8 @@ class App extends React.Component {
             />
           </div>
         </div>
+        
+        
 
       </React.Fragment >
     );

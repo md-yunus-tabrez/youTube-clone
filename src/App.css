@@ -48,7 +48,6 @@
 /* for video Description & Title */
 .dep{
     margin-top: 10px;
-    
 }
 
 /* for Heart Like Button */
@@ -60,7 +59,6 @@
 /* fir videos list */
 .vdlist{
     margin-top: .5em;
-    
 }
 
 /* for Error page */
@@ -69,11 +67,58 @@
     padding: 27% 0 0 50%;
     font-size: xx-large;
     font-weight: 800;
-    
+}
+
+/* for Comments */
+#txt{
+    float: right;
+    width: 45%;
+    height: 3em;
+    margin-left: 1.5rem;
+    border-style:none none solid none;
+    font-size: 10px;
+    border-bottom-width: 2px;
+    border-color:#c5c3c3;
+    outline: none;
+    padding-top: 1em;
+    font-size:small;
+    background-color: none;
+}
+
+#cmnt{
+    margin-right: 2em;
+    width: 45%;
+    height: 3em;
+    font-size: 10px;
+    margin-top: 0.1em;
+    border-style: none none solid none;
+    border-bottom-width: 2px;
+    border-color:#c5c3c3;
+    outline: none;
+    padding-top: 1em;
+    font-size:small;
+    background-color: none;
+}
+
+.cmntbtn{
+    position: relative;  
+    margin-left: 2em;
+    float: right;
+    border-color:#c5c3c3;
+    background: white;
+    padding: 1px 15px 4px 15px;
+    font-size: small;
 
 }
 
-
+.cnclbtn{
+    position: relative;  
+    float: right;
+    border-color:#c5c3c3;
+    background: white;
+    padding: 1px 15px 4px 15px;
+    font-size: small;
+}
 
 /* @media only screen and 
 (min-device-width: 768px)
